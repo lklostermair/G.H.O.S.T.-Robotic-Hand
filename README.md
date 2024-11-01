@@ -22,8 +22,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/lklostermair/G.H.O.S.T. Robotic Hand">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/lklostermair/G.H.O.S.T.-Robotic-Hand">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">G.H.O.S.T. Robotic Hand</h3>
