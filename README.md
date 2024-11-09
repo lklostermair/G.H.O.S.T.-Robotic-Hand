@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](Hand_v1.gif)
+[![Product Name Screen Shot]](Hand_v1.gif)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `lklostermair`, `G.H.O.S.T.-Robotic-Hand`, `twitter_handle`, `lukasklostermair`, `email_client`, `email`, `G.H.O.S.T.-Robotic-Hand`, `A self designed DIY 3D-printed robotic hand built to test and explore control strategies and human gripping.`
 
