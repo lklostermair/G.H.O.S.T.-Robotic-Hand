@@ -62,57 +62,64 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-### Built With
-
 * [![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+I started working on my project after my bachelors. After finishing a engineering degree, I wanted to apply my knowledge to a real world use case. I found hands particularily interesting as they are one of the most complex mechanisms for robots to copy. After reading up on different DIY projects, projects such as the [[ETH Hand](https://www.youtube.com/watch?v=3SUpe5RBC70)] and state of the art research i decided to build a tendon based robotic hand. To keep it simple i just wanted to perform opening and closing of all 5 fingers, with the thumb rotated to enable grasping. For christmas, I got an Arduino kit to kick off my project.
 
-### Prerequisites
+The design was inspired by this [Video][Video] as I really liked the creepy look the hand had, and it reminded me of a halloween bowl we used to use for trick or treating, that had a hand sticking out of it as well as a proximity sensor that would make the hand move as soon as somebody put their hand in.
+<img src="https://inst-0.cdn.shockers.de/ku_cdn/out/pictures/master/product/3/creppy-bonbonschuessel-mit-skeletthand-creppy-candy-bowl-with-moving-skeleton-hand-halloween-deko-54123-006.jpg" alt="Creepy Halloween Bowl">
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
-### Installation
+After designing one finger, I printed it to try it out.
+I found out that the finger hyperextends, as contrary to its real world counter part, it's tendon length is not limited. Therefore i built in a "stop" so it can not hyperextend. AFter reprinting and retrying, I was happy with the movement and began printing all 5 fingers as well as the hand palm.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/lklostermair/G.H.O.S.T.-Robotic-Hand.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin lklostermair/G.H.O.S.T.-Robotic-Hand
-   git remote -v # confirm the changes
-   ```
+Positioning the servos in the lower arm was the next difficulty, as I wanted to have the servos visible and to some degree level. I printed two versions of the lower arm panel, with elevations for the servos to ensure they don't interfere with each other. I then attached them back two back and had a 3D setup for the servos.
+
+### CAD
+
+I designed the project from scratch in Fusion 360. It's free for students and for the rather shallow complexity of my project it was perfect! I am pretty good in working with CATIA, but it was new for me to work within Fusion. During this prototyping phase the correct workflow with the right dependencies was not that high of a priority for me. I later noticed I should have looked more into it, as I had a hard time adapting my existing models to differing geometries (e.g. increasing the size of the tendon holes).
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### 3D printing
 
+All the 3D printed parts were printed with PETG in an Anycubic Mega S printer. As it also was the first time for me working with this printer, I had to work through a series of configurations (making alot of them famous boaties :D) until I had found some that work sufficiently for my use case. A big challenge were the rather small channels for the "tendons" in the fingers. As I simply scaled the CAD model to fit the finger size, the pinkie finger was the most difficult to work with.
 
-<!-- USAGE EXAMPLES -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Soldering and Electronics
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Movement
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Control
+
+After implementing a script, that runs on the Arduino by itself, I wanted to control the hand movements with an external controller. For this i built a glove with flexion sensors, that communicates with the hand through an NRF module.
+At first, due to budget reasons, I built myself flexion sensors as described in this [VIDEO][videolink]. Although they all worked to some degree, I was only able to extract a 1 or 0 signal, as they were not reliable enough to register a partial flexion of the fingers. I finally caved in and bought myself 5 flexion sensors.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Next Steps
+
+Empowered with AI!! jk jk, but as a little case study, I would like to implement a neural network that recognizes gestures (more accurately: recognizes which fingers are extended) and transmits this info to the hand, which copies the movement.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -123,38 +130,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/lklostermair/G.H.O.S.T.-Robotic-Hand/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Project Link: [https://github.com/lklostermair/G.H.O.S.T.-Robotic-Hand](https://github.com/lklostermair/G.H.O.S.T.-Robotic-Hand)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -182,18 +163,6 @@ Project Link: [https://github.com/lklostermair/G.H.O.S.T.-Robotic-Hand](https://
 [license-url]: https://github.com/lklostermair/G.H.O.S.T.-Robotic-Hand/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/lukasklostermair
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [Laravel-url]: https://laravel.com
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
