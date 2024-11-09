@@ -72,13 +72,19 @@ A self designed DIY 3D-printed robotic hand built to test and explore control st
 
 I started working on my project after my bachelors. After finishing a engineering degree, I wanted to apply my knowledge to a real world use case. I found hands particularily interesting as they are one of the most complex mechanisms for robots to copy. After reading up on different DIY projects, projects such as the [[ETH Hand](https://www.youtube.com/watch?v=3SUpe5RBC70)] and state of the art research i decided to build a tendon based robotic hand. To keep it simple i just wanted to perform opening and closing of all 5 fingers, with the thumb rotated to enable grasping. For christmas, I got an Arduino kit to kick off my project.
 
-The design was inspired by this [Video][Video] as I really liked the creepy look the hand had, and it reminded me of a halloween bowl we used to use for trick or treating, that had a hand sticking out of it as well as a proximity sensor that would make the hand move as soon as somebody put their hand in. <br><br>
-<img src="https://inst-0.cdn.shockers.de/ku_cdn/out/pictures/master/product/3/creppy-bonbonschuessel-mit-skeletthand-creppy-candy-bowl-with-moving-skeleton-hand-halloween-deko-54123-006.jpg" alt="Creepy Halloween Bowl" height="200">
+<p align="center">
+  <img src="Schematik.png" alt="Schematics">
+</p>
 
+The design was inspired by this [Video][Video] as I really liked the creepy look the hand had, and it reminded me of a halloween bowl we used to use for trick or treating, that had a hand sticking out of it as well as a proximity sensor that would make the hand move as soon as somebody put their hand in. <br><br>
+<p align="center">
+<img src="https://inst-0.cdn.shockers.de/ku_cdn/out/pictures/master/product/3/creppy-bonbonschuessel-mit-skeletthand-creppy-candy-bowl-with-moving-skeleton-hand-halloween-deko-54123-006.jpg" alt="Creepy Halloween Bowl" height="400">
+</p>
 
 
 After designing one finger, I printed it to try it out.
 I found out that the finger hyperextends, as contrary to its real world counter part, it's tendon length is not limited. Therefore i built in a "stop" so it can not hyperextend. AFter reprinting and retrying, I was happy with the movement and began printing all 5 fingers as well as the hand palm.
+
 
 Positioning the servos in the lower arm was the next difficulty, as I wanted to have the servos visible and to some degree level. I printed two versions of the lower arm panel, with elevations for the servos to ensure they don't interfere with each other. I then attached them back two back and had a 3D setup for the servos.
 
