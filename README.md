@@ -4,10 +4,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/lklostermair/G.H.O.S.T.-Robotic-Hand">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="200" height="200">
   </a>
 
-<h3 align="center">G.H.O.S.T. Robotic Hand</h3>
+<h2 align="center">G.H.O.S.T. Robotic Hand</h3>
 
   <p align="center">
     A self designed DIY 3D-printed robotic hand built to test and explore control strategies and human gripping.
