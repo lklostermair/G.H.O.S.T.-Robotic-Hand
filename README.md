@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/lklostermair/G.H.O.S.T.-Robotic-Hand">
-    <img src="logo.png" alt="Logo" width="200" height="200">
+    <img src="hand.png" alt="Logo" width="200" height="200">
   </a>
 
 <h2 align="center">G.H.O.S.T. Robotic Hand</h3>
