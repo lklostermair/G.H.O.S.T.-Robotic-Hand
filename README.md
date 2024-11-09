@@ -54,7 +54,7 @@
 
 
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `lklostermair`, `G.H.O.S.T.-Robotic-Hand`, `twitter_handle`, `lukasklostermair`, `email_client`, `email`, `G.H.O.S.T.-Robotic-Hand`, `A self designed DIY 3D-printed robotic hand built to test and explore control strategies and human gripping.`
+G.H.O.S.T.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,7 +77,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 I started working on my project after my bachelors. After finishing a engineering degree, I wanted to apply my knowledge to a real world use case. I found hands particularily interesting as they are one of the most complex mechanisms for robots to copy. After reading up on different DIY projects, projects such as the [[ETH Hand](https://www.youtube.com/watch?v=3SUpe5RBC70)] and state of the art research i decided to build a tendon based robotic hand. To keep it simple i just wanted to perform opening and closing of all 5 fingers, with the thumb rotated to enable grasping. For christmas, I got an Arduino kit to kick off my project.
 
 The design was inspired by this [Video][Video] as I really liked the creepy look the hand had, and it reminded me of a halloween bowl we used to use for trick or treating, that had a hand sticking out of it as well as a proximity sensor that would make the hand move as soon as somebody put their hand in.
-<img src="https://inst-0.cdn.shockers.de/ku_cdn/out/pictures/master/product/3/creppy-bonbonschuessel-mit-skeletthand-creppy-candy-bowl-with-moving-skeleton-hand-halloween-deko-54123-006.jpg" alt="Creepy Halloween Bowl">
+<img src="https://inst-0.cdn.shockers.de/ku_cdn/out/pictures/master/product/3/creppy-bonbonschuessel-mit-skeletthand-creppy-candy-bowl-with-moving-skeleton-hand-halloween-deko-54123-006.jpg" alt="Creepy Halloween Bowl" height="200">
+
 
 
 After designing one finger, I printed it to try it out.
