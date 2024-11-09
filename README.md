@@ -151,7 +151,7 @@ After implementing a script, that runs on the Arduino by itself, I wanted to con
 At first, due to budget reasons, I built myself flexion sensors as described in this [VIDEO][videolink]. Although they all worked to some degree, I was only able to extract a 1 or 0 signal, as they were not reliable enough to register a partial flexion of the fingers. I finally caved in and bought myself 5 flexion sensors.
 
 <p align="center">
-  <img src="visuals/glove_prototype.jpeg" alt="Glove Prototype" height="400">
+  <img src="visuals/glove__prototype.jpeg" alt="Glove Prototype" height="400">
 </p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -159,14 +159,6 @@ At first, due to budget reasons, I built myself flexion sensors as described in 
 ## Next Steps
 
 Empowered with AI!! jk jk, but as a little case study, I would like to implement a neural network that recognizes gestures (more accurately: recognizes which fingers are extended) and transmits this info to the hand, which copies the movement.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
