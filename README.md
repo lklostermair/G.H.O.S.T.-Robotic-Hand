@@ -7,10 +7,9 @@
     <img src="hand.png" alt="Logo" width="200" height="200">
   </a>
 
-<h2 align="center">G.H.O.S.T. Robotic Hand</h3>
+<h2 align="center">G.H.O.S.T. Grasping Hand Operated by Servo Tendons </h3>
 
   <p align="center">
-    A self designed DIY 3D-printed robotic hand built to test and explore control strategies and human gripping.
     <br />
   </p>
 </div>
@@ -48,13 +47,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align="center">
-  <img src="Hand_v1.gif" alt="3D part structure">
-</p>
+
+A self designed DIY 3D-printed robotic hand built to test and explore control strategies and human gripping.
 
 
-
-G.H.O.S.T.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +72,7 @@ G.H.O.S.T.
 
 I started working on my project after my bachelors. After finishing a engineering degree, I wanted to apply my knowledge to a real world use case. I found hands particularily interesting as they are one of the most complex mechanisms for robots to copy. After reading up on different DIY projects, projects such as the [[ETH Hand](https://www.youtube.com/watch?v=3SUpe5RBC70)] and state of the art research i decided to build a tendon based robotic hand. To keep it simple i just wanted to perform opening and closing of all 5 fingers, with the thumb rotated to enable grasping. For christmas, I got an Arduino kit to kick off my project.
 
-The design was inspired by this [Video][Video] as I really liked the creepy look the hand had, and it reminded me of a halloween bowl we used to use for trick or treating, that had a hand sticking out of it as well as a proximity sensor that would make the hand move as soon as somebody put their hand in.
+The design was inspired by this [Video][Video] as I really liked the creepy look the hand had, and it reminded me of a halloween bowl we used to use for trick or treating, that had a hand sticking out of it as well as a proximity sensor that would make the hand move as soon as somebody put their hand in. <br><br>
 <img src="https://inst-0.cdn.shockers.de/ku_cdn/out/pictures/master/product/3/creppy-bonbonschuessel-mit-skeletthand-creppy-candy-bowl-with-moving-skeleton-hand-halloween-deko-54123-006.jpg" alt="Creepy Halloween Bowl" height="200">
 
 
@@ -90,6 +86,9 @@ Positioning the servos in the lower arm was the next difficulty, as I wanted to 
 
 I designed the project from scratch in Fusion 360. It's free for students and for the rather shallow complexity of my project it was perfect! I am pretty good in working with CATIA, but it was new for me to work within Fusion. During this prototyping phase the correct workflow with the right dependencies was not that high of a priority for me. I later noticed I should have looked more into it, as I had a hard time adapting my existing models to differing geometries (e.g. increasing the size of the tendon holes).
 
+<p align="center">
+  <img src="Hand_v1.gif" alt="3D part structure">
+</p>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
